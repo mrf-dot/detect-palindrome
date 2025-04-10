@@ -59,9 +59,9 @@ int main(int argc, char **argv)
     }
     assert(palstr != NULL);
     if (ispal(palstr)) {
-        printf("%s is a palindrome.\n", palstr);
+        printf("'%s' is a palindrome.\n", palstr);
     } else {
-        printf("%s is NOT a palindrome.\n", palstr);
+        printf("'%s' is NOT a palindrome.\n", palstr);
     }
 }
 
