@@ -15,6 +15,7 @@ $ detect-palindrome "detect a palindrome"
 ## Compilation
 
 ```bash
-$ gcc detect-palindrome.c -o detect-palindrome
+$ make
 $ chmod +x detect-palindrome
+$ ./detect-palindrome <palindrome>
 ```
