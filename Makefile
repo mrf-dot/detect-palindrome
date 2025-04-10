@@ -1,6 +1,6 @@
 # Set variables
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -pedantic -std=c99
+CFLAGS = -O2 -Wall -Wextra -Werror -pedantic -std=c99
 TARGET = detect-palindrome
 SRC = detect-palindrome.c
 
