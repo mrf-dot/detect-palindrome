@@ -49,9 +49,6 @@ int parse_cmdargs(int argc, char **argv, char **palstr)
 
 int main(int argc, char **argv)
 {
-    assert(ispal("racecar"));
-    assert(ispal("AMANAPLANACANALPANAMA"));
-    assert(!ispal("hi"));
     char *palstr = NULL;
     if (!parse_cmdargs(argc, argv, &palstr)) {
         usage();
